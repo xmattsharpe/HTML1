@@ -1,0 +1,52 @@
+#HobbyTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+#HobbyTable th, #HobbyTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+#HobbyTable th {
+    background-color: #f2f2f2;
+}
+
+h3, h4, h1, h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif
+    
+    
+}
+
+#Pencil {
+    width: 850px; 
+    height: 500px; 
+    margin-left: 525px;
+    margin-top: 100px
+   
+}
+
+#Arrow{
+
+    width: 700px
+}
+
+#Park{
+    width: 1000px;
+    height: 600px;
+    margin-bottom: 100px;
+    margin-right: 0px;
+
+}
+
+#Mission {
+    margin-left: 675px;
+    max-width: 600px; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px;
+    line-height: 1.5;
+    font-size: 18px
+   
+}

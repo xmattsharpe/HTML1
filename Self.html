@@ -1,0 +1,153 @@
+
+<!--
+ Matthew Sharpe
+ PGM 1 - HTML1
+ CIS 341
+ 10 September 2024
+ 
+
+
+-->
+
+<html> 
+
+<head> 
+    <Title> An Insight On Myself </Title>
+    <link rel = "stylesheet" href = "Self.css"> 
+</head>
+
+<body> 
+<img src = "PencilBackground.jpg" alt = "Background Photo" id = "Pencil"> 
+<h1 style = "text-align: center; font-size: 64px; font-family: 'Times New Roman', Times, serif; margin-top: 10px"> Introducing Matthew Sharpe </h1>
+
+
+<div id = "Mission"> 
+<p>     Welcome to my website! I am a 20 year old college student studying Information Systems who grew up in the outscurts of Athens, GA, but would soon move to the Greater Cincinnati area.
+    I enjoy just about every activity outdoors, flag football, dirtbiking, fishing, you name it! In addition to having my own share of fun, I am thrilled to launch my career as a young professional 
+    as I continue to expand my network of those around me, and extend my technical expertise!
+    
+</p>
+</div>
+
+    <h3 style = "font-weight: normal">Below are a few hobbies that I enjoy!</h3>
+    <table id="HobbyTable">
+        <tr>
+            <th>Hobby</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Working Out</td>
+            <td>Engaging in activities that require me to lift heavy objects and put them down keeps me sane!</td>
+        </tr>
+        <tr>
+            <td>Hiking Through Trails at the Ohio River Trail</td>
+            <td>Exploring the scenic trails along the Ohio River for fresh air and nature has opened my eyes to what we take for granted around us each day.</td>
+        </tr>
+        <tr>
+            <td>Grabbing Coffee from Starbucks</td>
+            <td>Enjoying a cup of coffee and relaxing at Starbucks with friends is a great way to socialize and even get some work done!</td>
+        </tr>
+        <tr>
+            <td>Going on Runs</td>
+            <td>Running regularly helps me clear my mind from any external stress that occurs.</td>
+        </tr>
+        <tr>
+            <td>Learning New Things</td>
+            <td>Continuously expanding knowledge and skills in various areas of interest reminds me that I know less than 1% of anything; we can always keep learning!</td>
+        </tr>
+        <tr>
+            <td>Attending UC Football Games</td>
+            <td>During the Fall, there isn't a University of Cincinnati football game that isn't worth going to!</td>
+        </tr>
+    </table>
+    
+    <h2 style = "text-align: left"> Here is a list of my favorite spots to go for a quick run at! </h2>
+
+    <ul style = "line-height: 2.0; font-size: 20px"> 
+    <li> Devou Park: Covington, Kentucky </li>
+    <li> Riddleview Park: Newport, Kentucky </li>
+    <li> Mount Echo Park: Cincinnati, Ohio </li>
+    <li> Rapid Run Park: Cincinnati Ohio </li>
+ 
+
+    </ul>
+
+    
+    <img src = "arrow.jpg" alt = "arrow" id = "Arrow"> 
+    <img src = "DevouPark.jpg" alt = "Nice park" id = "Park">
+
+    <hr> 
+    <h1> Fitness </h1>
+    <h2 style = "font-weight: normal; text-decoration: None"> If you are interested in training with me in the gym, fill out the information below! </h2>
+    <form method = "POST">
+
+        <label for = "Fname"> First name: </label>
+        <input type = "text" id = "Fname" required placeholder = "John" minlength = "6" maxlength = "20">  
+        <br> 
+        <br> 
+
+        <label for = "Lname"> Last name: </label>
+        <input type = "text" id = "Lname" required placeholder = "Doe" minlength = "6" maxlength = "20">  
+        <br> 
+        <br> 
+
+        <label for = "Email"> Email Address: </label>
+        <input type = "email" id = "Email" required placeholder = "JohnDoe123@Example.com">  
+
+        <br> 
+        <br> 
+
+        <label for = "Phone"> Phone: </label>
+        <input type = "phone" id = "Phone" required placeholder = "000-000-0000" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{3}">
+
+        <br> 
+        <br> 
+
+        <label for = "gender"> Gender: </label>
+
+        
+
+        <label for = "male"> Male </label>
+        <input type = "radio" id= "male" value = "Male " name = "gender" >
+        
+        <label for = "female"> Female </label>
+        <input type = "radio" id= "female" value = "Female" name = "gender">
+        
+        <br> 
+        <br> 
+
+        <label for = "gender"> Experience (Have you been to a gym before?) </label>
+
+        
+
+        <label for = "yes"> Yes </label>
+        <input type = "radio" id= "yes" value = "Yes " name = "exp" >
+        
+        <label for = "no"> No </label>
+        <input type = "radio" id= "no" value = "No" name = "exp">
+        
+        <br> 
+        <br> 
+
+        <label for = "file"> Upload any document that you may find necessary </label>
+        <input type = "file" id = "file">
+
+        <br> 
+        <br> 
+
+        <label for = "comment"> Additional Information That I should Know: </label>
+        <textarea id = "comment" cols = "30" rows = "5"> </textarea>
+
+        <br> 
+        
+        <input type = "reset"> 
+        <input type = "submit">
+
+        
+    </form>
+    </body>
+
+
+
+
+</html>
